@@ -26,18 +26,20 @@
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="lanzarPreferencias"
         android:text="@string/Configurar" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="lanzarAcercaDe"
         android:text="@string/Acercade" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Salir" />
+        android:text="@string/Puntuaciones" />
 
 </LinearLayout>

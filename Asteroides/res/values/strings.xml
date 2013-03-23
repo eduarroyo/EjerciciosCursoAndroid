@@ -4,6 +4,7 @@
     <string name="Configurar">Configurar</string>
     <string name="Acercade">Acerca de </string>
     <string name="Salir">Salir</string>
+    <string name="Puntuaciones">Puntuaciones</string>
     <string name="tituloAplicacion">Asteroides</string>
     <string name="hello">Hello World, Asteroides! </string>
     <string name="app_name">Asteroides</string>
