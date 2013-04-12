@@ -15,6 +15,10 @@ class Grafico {
 	private View view; // Donde dibujamos el gráfico (usada en view.ivalidate)
 	public static final int MAX_VELOCIDAD = 20; // Para determinar el espacio a borrar (view.ivalidate)
 
+	public static int getMaxVelocidad() {
+		return MAX_VELOCIDAD;
+	}
+
 	public Grafico(View view, Drawable drawable) {
 		this.view = view;
 		this.drawable = drawable;
