@@ -23,7 +23,8 @@
         </activity>
         <activity android:name="com.example.asteroides.AcercaDe" android:theme="@android:style/Theme.Dialog"/>
         <activity android:name="com.example.asteroides.Preferencias" android:theme="@android:style/Theme.Dialog"></activity>
-        <activity android:theme="@android:style/Theme.Dialog" android:name="com.example.asteroides.Puntuaciones"></activity>
+        <activity android:name="com.example.asteroides.Puntuaciones" android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:screenOrientation="landscape" android:name="Juego" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
     </application>
 
 </manifest>

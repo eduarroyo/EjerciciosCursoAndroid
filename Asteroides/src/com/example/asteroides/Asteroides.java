@@ -20,7 +20,14 @@ public class Asteroides extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
-		
+
+        bAcercaDe = (Button) findViewById(R.id.button1);
+        bAcercaDe.setOnClickListener(new OnClickListener() {
+    		public void onClick(View view) {
+    			lanzarJuego(null);
+    		}
+        });
+        
         bAcercaDe = (Button) findViewById(R.id.button3);
         bAcercaDe.setOnClickListener(new OnClickListener() {
     		public void onClick(View view) {
@@ -76,6 +83,11 @@ public class Asteroides extends Activity {
 	
 	public void lanzarPuntuaciones(View view) {
 		Intent i = new Intent(this, Puntuaciones.class);
+		startActivity(i);
+	}
+	
+	public void lanzarJuego(View view) {
+		Intent i = new Intent(this, Juego.class);
 		startActivity(i);
 	}
 }
